@@ -1,0 +1,156 @@
+{
+  "site": {
+    "title": "Seikei Game Studio Portfolio",
+    "logo": {
+      "text": "Seikei Game Studio",
+      "icon": "SGS"
+    }
+  },
+  "navigation": {
+    "menu": [
+      { "id": "home", "label": "HOME", "action": "navigate" },
+      { "id": "activity-section", "label": "DETAIL", "action": "scroll" },
+      { "id": "works-grid", "label": "GAME", "action": "scroll" },
+      { "id": "news", "label": "LOG", "action": "navigate" }
+    ],
+    "joinButton": {
+      "label": "JOIN",
+      "icon": "gamepad-2",
+      "action": "contact",
+      "color": "green"
+    }
+  },
+  "hero": {
+    "badge": "部員募集中！！",
+    "title": {
+      "line1": "ようこそ",
+      "line2": "成蹊ゲーム<br>スタジオへ"
+    },
+    "description": "ゲームを制作しよう。<br>プログラミング、デザインなんでもできる！<br>あなただけのゲームが作れる。",
+    "buttons": [
+      { "label": "PLAY GAME", "style": "primary", "action": "scroll", "target": "works-grid" },
+      { "label": "JOIN", "style": "green", "action": "navigate", "target": "contact" }
+    ],
+    "graphic": {
+      "icon": "cpu"
+    }
+  },
+  "status": {
+    "title": "CLUB INFO",
+    "cards": [
+      {
+        "title": "活動日・時間",
+        "icon": "clock",
+        "data": [
+          { "label": "曜日", "value": "活動曜日は時期によって変更されます。週2日程度です。", "color": "white" },
+          { "label": "時間", "value": "16:50~、長期休暇は異なります。", "color": "white" }
+        ]
+      },
+      {
+        "title": "場所",
+        "icon": "map-pin",
+        "data": [
+          { "label": "場所", "value": "成蹊大学西部室棟", "color": "white" },
+          { "label": "部室", "value": "二階", "color": "white" }
+        ]
+      },
+      {
+        "title": "経験できるスキル",
+        "icon": "zap",
+        "tags": [
+          { "label": "イラスト", "color": "cyan" },
+          { "label": "コーディング", "color": "pink" },
+          { "label": "システムデザイン", "color": "yellow" }
+        ]
+      }
+    ]
+  },
+  "works": {
+    "title": "GAME",
+    "subtitle": "ゲームを選択してください...",
+    "items": [
+      {
+        "id": 1,
+        "title": "TEST1",
+        "level": "111111",
+        "progress": 100,
+        "color": "cyan",
+        "image": null
+      },
+      {
+        "id": 2,
+        "title": "TEST2",
+        "level": "50",
+        "progress": 100,
+        "color": "pink",
+        "image": null
+      },
+      {
+        "id": 3,
+        "title": "TEST3",
+        "level": "100",
+        "progress": 100,
+        "color": "yellow",
+        "image": null
+      }
+    ]
+  },
+  "logs": {
+    "title": "LOGS",
+    "icon": "terminal",
+    "viewAllButton": "すべてのlogを見る >>",
+    "entries": [
+      {
+        "id": "log-1",
+        "date": "202323213331.10.15",
+        "title": "TEST1",
+        "description": "aaaaaa",
+        "color": "green",
+        "content": "これはTEST1の詳細な内容です。ここに長い説明文を追加できます。活動内容や成果などを記載します。"
+      },
+      {
+        "id": "log-2",
+        "date": "2023.09.28",
+        "title": "TEST2",
+        "description": "uuuuu",
+        "color": "cyan",
+        "content": "これはTEST2の詳細な内容です。プロジェクトの進捗状況や今後の予定などを記載できます。"
+      },
+      {
+        "id": "log-3",
+        "date": "2023.09.01",
+        "title": "TEST3",
+        "description": "いいい",
+        "color": "gray",
+        "content": "これはTEST3の詳細な内容です。イベントの報告や重要なお知らせなどを詳しく記載します。"
+      }
+    ]
+  },
+  "newsPage": {
+    "title": "ALL LOGS",
+    "subtitle": "すべてのログ一覧",
+    "backButton": "< BACK"
+  },
+  "logDetailPage": {
+    "backButton": "< BACK TO LOGS"
+  },
+  "contact": {
+    "icon": "mail-warning",
+    "title": "JOIN US",
+    "description": "新入部員を募集しています！<br>入部、見学など、<br>下記リンクから申し込みください。",
+    "button": {
+      "label": "Google Formへ転送",
+      "icon": "send",
+      "url": "https://docs.google.com/forms"
+    },
+    "warning": ""
+  },
+  "footer": {
+    "text": "Let's create a game together!!!",
+    "social": [
+      { "platform": "twitter", "icon": "twitter", "url": "https://x.com/SeikeiDenko" },
+      { "platform": "instagram", "icon": "", "url": "#" }
+    ],
+    "copyright": "&copy; 2026 SEIKEI GAME STUDIO. ALL RIGHTS RESERVED."
+  }
+}
